@@ -182,7 +182,6 @@ header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/ColossalBattleBG.jpeg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/ColossalBattleBG.jpeg);
     background-size:auto 1200px;
-    background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
 }

@@ -8,7 +8,6 @@
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-    body { font-size: 18px; }
     
     header {
         
@@ -48,7 +47,6 @@
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-    body { font-size: 16px; }
     section { padding: 30px 0; }
     
    header {
@@ -115,7 +113,13 @@
         
     }
     
-   
+   .subscribeForm {
+        width:320px;
+    }
+
+    input[type=email]{
+        width: 200px;
+    }
     
 
 }
@@ -140,6 +144,13 @@
         width: 100%;
     }
    
+    subscribeForm {
+        width:320px;
+    }
+
+    input[type=email]{
+        width: 200px;
+    }
     
 }
 

@@ -2,9 +2,7 @@
 @media only screen and (max-width: 1200px) {
 
     .row { padding: 0 2%; }
-     input[type=email]{
-        width: 340px;
-    }
+     
 }
 
 
@@ -13,11 +11,10 @@
     body { font-size: 18px; }
     
     header {
-        background-size: 1500px ;
-        background-origin: content-box;
-        background-position: top;
+        
         height: 600px;
         width: auto; 
+        background-size: auto 600px ;
     }
     
     .long-copy {
@@ -25,8 +22,7 @@
         margin-left: 10%;
     }
     
-    .contact-form { width: 80%; }
-    
+ 
      iframe {
         width: 720px;
         height: 480px;
@@ -41,7 +37,9 @@
     }
     
     
-
+   
+    
+    
    
    
 }
@@ -53,12 +51,10 @@
     body { font-size: 16px; }
     section { padding: 30px 0; }
     
-    header {
-        background-size: 1500px ;
-        background-origin: content-box;
-        background-position: top;
-        height: 600px;
+   header {
+        height: 400px;
         width: auto; 
+        background-size: auto 400px ;
     }
     
     .row,
@@ -96,7 +92,7 @@
     }
 
     .ColossalBattlelogo {
-        top: 450px;
+        top: 250px;
         width: 250px;
         margin-left: -125px;
         margin-top: -125px;
@@ -119,13 +115,8 @@
         
     }
     
-    .subscribeForm {
-        width: 100%;
-    }
+   
     
-    input[type=email]{
-        width: 58%;
-    }
 
 }
 
@@ -149,9 +140,6 @@
         width: 100%;
     }
    
-     input[type=email]{
-        width: 58%;
-    }
     
 }
 

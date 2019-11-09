@@ -177,12 +177,13 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/ColossalBattleBG.jpeg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/ColossalBattleBG.jpeg);
-    background-size:cover;
-    background-position: center;
     height: 1200px;
     width: auto; 
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/ColossalBattleBG.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/ColossalBattleBG.jpeg);
+    background-size:auto 1200px;
+    background-repeat: no-repeat;
+    background-position: top;
     background-attachment: fixed;
 }
 
@@ -272,17 +273,18 @@ footer p {
     display: block;
     width: 100%;
     text-align: center;
+ padding: 0;
+    margin: 0;
 }
 
 .subscribeForm {
     display: inline-block;
-    width: 460px;
+    width:400px;
 }
 
 input[type=email]{
-    width: 350px;
+    width: 280px;
     padding: 10px;
-    border-radius: 3px;
     border: 1px solid #ccc;
     border-radius: 50px;
 }

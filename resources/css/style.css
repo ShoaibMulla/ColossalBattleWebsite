@@ -179,8 +179,8 @@ input[type=submit]:active {
 header {
     height: 1200px;
     width: auto; 
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/ColossalBattleBG.jpeg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/ColossalBattleBG.jpeg);
+    background-image: -webkit- url(img/ColossalBattleBG.jpeg);
+    background-image: url(img/ColossalBattleBG.jpeg);
     background-size:auto 1200px;
     background-position: top;
     background-attachment: fixed;
@@ -208,10 +208,9 @@ header {
     height: auto   ;
     position: absolute;
     
-    top: 75%;
     left: 50%;
-    margin-left: -255px;
-    margin-top: -255px;
+    margin-left: -250px;
+    margin-top: -500px;
     
 }
 

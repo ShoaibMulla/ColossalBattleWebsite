@@ -1,10 +1,10 @@
 <?php
-$to = "shoaibmulla@hotmail.com"; // Your Brand Mail ID
-$from = "no-reply@example.com"; // Replace it with your From Mail ID
+$to = "shoaibmulla@hotmail.com"; 
+$from = "ColossalBattle@gamenotoverstudio.com"; 
 
 $headers = "From: " . $from . "rn";
 
-$subject = "New subscription";
+$subject = "New Subscription";
 $body = "New user subscription: " . $_POST['email'];
 if( filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) )
 {

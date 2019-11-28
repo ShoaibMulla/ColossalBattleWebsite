@@ -2,7 +2,9 @@
 @media only screen and (max-width: 1200px) {
 
     .row { padding: 0 2%; }
-     
+    .para {
+        width: 90%;
+    }
 }
 
 
@@ -16,17 +18,10 @@
         background-size: auto 600px ;
     }
     
-    .long-copy {
-        width: 80%;
-        margin-left: 10%;
-    }
-    
- 
      iframe {
         width: 720px;
         height: 480px;
     }
-    
     
     .ColossalBattlelogo {
         width: 250px;
@@ -34,12 +29,9 @@
         margin-top: -350px;
     }
     
-    
-   
-    
-    
-   
-   
+    .para {
+        width: 90%;
+    }
 }
 
 
@@ -64,15 +56,6 @@
     
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
-    
-    .long-copy {
-        width: 100%;
-        margin-left: 0%;
-        text-align: center;
-    }
-    
-   
-   
     
     
     iframe {
@@ -101,15 +84,7 @@
         margin-right: auto;
     }
     
-    .para {
-        width: 100%;
-        text-align: center;
-    }
-    
-    .long-copy {     
-        width: 80%;
-        
-    }
+
     
    .subscribeForm {
         width:320px;
@@ -119,9 +94,7 @@
         width: 200px;
     }
     
-
 }
-
 
 
 /* Small phones: from 0 to 480px */
@@ -133,13 +106,6 @@
         background-position: top;
         height: 600px;
         width: auto; 
-    }
-  
-   .para {
-        width: 100%;
-    }
-    .long-copy {     
-        width: 100%;
     }
    
     subscribeForm {
